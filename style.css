@@ -84,10 +84,10 @@ footer {
 
 .text-justify {
     text-align: justify;
-    line-height: 1.6;  /* Mengatur jarak antar baris agar lebih rapi */
+    line-height: 1.6;
 }
 
-/* Password Form Styles */
+
 .password-form-container {
     position: absolute;
     top: 50%;
