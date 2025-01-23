@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f9;
+    
 }
 
 .navbar {
@@ -84,4 +85,38 @@ footer {
 .text-justify {
     text-align: justify;
     line-height: 1.6;  /* Mengatur jarak antar baris agar lebih rapi */
+}
+
+/* Password Form Styles */
+.password-form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.password-form-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.password-form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.password-form-container .btn {
+    width: 100%;
+    padding: 10px;
+}
+
+#content {
+    display: none;
 }
