@@ -24,16 +24,34 @@
 <body>
 
     <!-- Password Form -->
-    <div id="password-form" class="password-form-container">
+    <div id="password-form" style="text-align: center; margin-top: 100px;">
         <h2>Masukkan Password</h2>
-        <input type="password" id="password" placeholder="Masukkan password">
-        <button onclick="checkPassword()">Submit</button>
+        <input type="password" id="password" placeholder="Masukkan password" style="padding: 10px; margin-top: 10px;">
+        <button onclick="checkPassword()" style="padding: 10px; margin-top: 10px;">Submit</button>
     </div>
 
     <!-- Protected Content -->
     <div id="protected-content" style="display: none;">
         <!-- Your existing content here -->
-        <!-- Contoh content halaman Anda -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png.jpg" alt="Logo Bank" style="width:50px;">
+                    <h7>MENEJEMEN PANGAN WNB INDONESIA</h7>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Saya</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Visi dan Misi">Visi dan Misi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="container mt-5">
             <div id="about" class="section">
                 <div class="section-title">Saya</div>
@@ -51,12 +69,12 @@
                 
                 <h4>Visi</h4>
                 <p class="text-justify">
-                    Membangun dan meningkatkan sumber pangan di setiap daerah, serta memajukan masyarakat petani. Menjadi pendukung bagi warga negara Indonesia dalam meningkatkan mutu industri di bidang pangan.
+                    Membangun dan meningkatkan sumber pangan di setiap daerah, serta memajukan masyarakat petani. Menjadi pendukung bagi warga negara Indonesia dalam meningkatkan mutu industri di bidang pangan. Menjadi salah satu penghasil pangan dalam negeri yang berkontribusi pada ketahanan pangan global dan menjadikan Indonesia sebagai lumbung pangan dunia.
                 </p>
                 
                 <h4>Misi</h4>
                 <p class="text-justify">
-                    Membangun dan meningkatkan industri pangan dalam negeri, terutama di bidang pangan, untuk meningkatkan produksi pangan daerah. Menstabilkan sektor pertanian di tingkat kabupaten dan desa.
+                    Membangun dan meningkatkan industri pangan dalam negeri, terutama di bidang pangan, untuk meningkatkan produksi pangan daerah. Menstabilkan sektor pertanian di tingkat kabupaten dan desa, serta memberikan kesejahteraan kepada petani. Memberikan dukungan ilmu pengetahuan bagi petani, serta melaksanakan penyuluhan untuk kemajuan masyarakat desa dalam sektor pertanian.
                 </p>
             </div>
 
@@ -67,7 +85,7 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <footer>
             <p>&copy; @2021_Manejemen WNB pangan dengan Fisi misi 3N_@ (Ketahanan Pangan, Kedaulatan Pangan, Kemakmuran Pangan) . Semua hak cipta dilindungi.</p>
         </footer>
 
